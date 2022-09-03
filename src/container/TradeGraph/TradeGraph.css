@@ -1,0 +1,210 @@
+.trade-card {
+    position: absolute;
+    width: 1216px;
+    height: 96px;
+    left: 134px;
+    top: 321px;
+    background: #262338;
+    border-radius: 2px;
+}
+
+.trade-name {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FCFCFC;
+}
+
+.showing-trade {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 24px;
+    top: 48px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6E7191;
+}
+
+.time-trade-card {
+    position: absolute;
+    width: 36px;
+    height: 24px;
+    left: 722px;
+    top: 36px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: #4E4B66;
+}
+
+.time-select {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6E7191;
+}
+
+.time-24h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 61px;
+    height: 36px;
+    left: 782px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-24h:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+    
+}
+
+.time-7D {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 51px;
+    height: 36px;
+    left: 855px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-7D:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+}
+
+.time-30D {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 62px;
+    height: 36px;
+    left: 918px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-30D:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+}
+
+.time-90D {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 62px;
+    height: 36px;
+    left: 992px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-90D:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+}
+
+.time-6M {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 55px;
+    height: 36px;
+    left: 1066px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-6M:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+}
+
+.time-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 59px;
+    height: 36px;
+    left: 1135px;
+    top: 30px;
+    background: #262338;
+    border-radius: 2px;
+    color: #6E7191;
+}
+
+.time-all:hover {
+    background: #6E7191;
+    border-radius: 2px;
+    color: #EFF0F6;
+}
+
+.trade-graphic {
+    position: absolute;
+    width: 1216px;
+    height: 448px;
+    left: 134px;
+    top: 441px;
+    background: #262338;
+    border-radius: 2px;
+    padding-left: 60px;
+}

@@ -1,0 +1,22 @@
+body {
+    background: #14142B;
+}
+
+.navbar-logo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 28px;
+    top: 24px;
+}
+
+@media (max-width: 390px) {
+    .navbar-logo {
+        left: 16px;
+        top: 16px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}

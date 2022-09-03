@@ -1,0 +1,167 @@
+.header {
+    position: absolute;
+    width: 1360px;
+    height: 74px;
+    left: 80px;
+    top: 0px;
+    background: #262338;
+}
+
+.search {
+    position: absolute;
+    width: 384px;
+    height: 56px;
+    left: 32px;
+    top: 9px;
+    background: #14142B;
+    border: 1px solid #4E4B66;
+    border-radius: 2px;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    width: 330px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E7191;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.bx-search {
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+    color: #6E7191;
+    font-size: 16px;
+}
+
+.gwei {
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    left: 964px;
+    top: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F7FC;
+}
+
+
+.color1 {
+    color: #F7F7FC;
+    padding: 5px;
+    font-size: 18px;
+}
+.color2 {
+    color: #6E7191
+
+}
+
+.mini-div {
+    border: 1px solid #4E4B66;
+    width: 18px;
+    height: 0px;
+    left: 1070px;
+    top: 37px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 1124px;
+    top: 25px;
+}
+
+.welcometex {
+    width: 92px;
+    height: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bx-menu-alt-right {
+    color: #FCFCFC;
+}
+
+.div-head {
+    border: 1px solid #4E4B66;
+    width: 1360px;
+    height: 0px;
+    left: 0px;
+    top: 72px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.icn-esc {
+    display: none;
+}
+
+.icn-esc2 {
+    display: none;
+}
+
+@media (max-width: 390px) {
+    .header {
+        position: absolute;
+        width: 390px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .div-head {
+        position: absolute;
+        width: 390px;
+        height: 0px;
+        left: 0px;
+        top: 56px;
+    }
+
+    .gwei {
+        position: absolute;
+        left: 56px;
+        top: 16px;
+    }
+
+    .icn-esc {
+        position: absolute;
+        left: 303px;
+        top: 18px;
+        color: #FCFCFC;
+    }
+
+    .icn-esc {
+        position: absolute;
+        left: 330px;
+        top: 18px;
+    }
+}
